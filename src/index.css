@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  border-bottom: 0.5px solid black;
+}
+
+.game-container {
+  margin-top: 50px;
+}
+ 
+.sub-heading {
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+
+}
+
+.cards img {
+  width: 25%;
+  height: auto;
+}
+
+.btn {
+  padding: 12px 23px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: blue;
+  margin: 20px auto;
+}
